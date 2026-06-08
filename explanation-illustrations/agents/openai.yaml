@@ -1,6 +1,6 @@
 interface:
   display_name: "Explanation Illustrations"
-  short_description: "Hand-drawn explanatory figures for English papers and blog posts"
+  short_description: "Hand-drawn figures for English papers and blog posts"
   default_prompt: "Use $explanation-illustrations to design and generate hand-drawn explanatory illustrations for this English article."
 policy:
   allow_implicit_invocation: true

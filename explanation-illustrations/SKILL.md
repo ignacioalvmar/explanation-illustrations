@@ -1,6 +1,16 @@
 ---
 name: explanation-illustrations
-description: Generate hand-drawn explanatory illustrations for English papers, blog posts, articles, Notion docs, workflow docs, methodologies, and concepts. Use when the user asks for "article illustration", "figure for my paper", "blog illustration", "explainer image", "concept illustration", "shot list", "illustration ideas", "hand-drawn diagram", or wants to turn a judgment, process, structure, state, or metaphor into a clean, absurd, hand-drawn 16:9 image. Default style: pure-white background, black hand-drawn line art, sparse red/orange/blue handwritten English annotations, and a recurring deadpan black-blob character ("Blackie"). Also handles editing images (removing titles/wrong text) and refining composition.
+description: >-
+  Generate hand-drawn explanatory illustrations for English papers, blog posts,
+  articles, Notion docs, workflow docs, methodologies, and concepts. Use when
+  the user asks for "article illustration", "figure for my paper", "blog
+  illustration", "explainer image", "concept illustration", "shot list",
+  "illustration ideas", "hand-drawn diagram", or wants to turn a judgment,
+  process, structure, state, or metaphor into a clean, absurd, hand-drawn 16:9
+  image. Default style is pure-white background, black hand-drawn line art,
+  sparse red/orange/blue handwritten English annotations, and a recurring deadpan
+  black-blob character ("Blackie"). Also handles editing images (removing
+  titles/wrong text) and refining composition.
 ---
 
 # Hand-Drawn Explanation Illustrations
