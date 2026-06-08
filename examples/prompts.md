@@ -1,83 +1,95 @@
 # Prompt Examples
 
-下面这些 prompt 可以直接复制到 Codex 里使用。
+Copy these prompts into Cursor, Claude Code, or Codex.
 
-## 只做配图规划
+## Plan figures only
 
 ```text
-Use $ian-xiaohei-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：
-- 放在哪个段落后
-- 图的主题
-- 核心意思
-- 结构类型
-- 小黑在图里做什么
-- 建议元素
-- 建议中文标注词
+Use $explanation-illustrations — do not generate images yet.
+Analyze where this article benefits from figures and output a shot list of about 5.
+For each figure, state:
+- which paragraph it follows
+- the figure's topic
+- the core idea
+- the structure type
+- what Blackie is doing
+- suggested elements
+- suggested English labels
 
-<粘贴文章>
+<paste article>
 ```
 
-## 文章正文配图
+## Inline figures for an article
 
 ```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
-每张图只讲一个核心结构，不要做 PPT 信息图，不要可爱卡通。
+Use $explanation-illustrations to generate 4 hand-drawn explanatory figures for this article.
+Requirements: 16:9 landscape, pure white background, black hand-drawn line art,
+sparse red/orange/blue English handwritten annotations.
+One core structure per figure — no PPT infographics, no cute cartoons.
 
-<粘贴文章>
+<paste article>
 ```
 
-## 长文配图策略
+## Long-form illustration strategy
 
 ```text
-Use $ian-xiaohei-illustrations 给这篇长文做配图策略。
-不要平均配图，只挑认知锚点：核心判断、输入输出闭环、前后对比、常见坑、承接路径。
-默认 6-8 张，先输出 shot list，不要生成图片。
+Use $explanation-illustrations to plan figures for this long article.
+Do not illustrate evenly — pick cognitive anchors only: core judgment, input/output loop,
+before/after, common pitfalls, handoff paths.
+Default 6–8 figures. Output the shot list only; do not generate images.
 
-<粘贴文章>
+<paste article>
 ```
 
-## 单个观点生成一张图
+## Single idea, one figure
 
 ```text
-Use $ian-xiaohei-illustrations 为这个观点生成一张 16:9 正文配图：
+Use $explanation-illustrations to generate one 16:9 figure for this idea:
 
-信任不是喊出来的，而是一块证据一块证据铺过去。
+Trust is not shouted into existence — it is laid down one piece of evidence at a time.
 
-画面要怪诞但清爽，小黑必须承担核心动作。
-中文标注最多 5 个，短一点。
+The scene should be absurd but clean. Blackie must perform the core action.
+At most 5 short English labels.
 ```
 
-## 工作流主题
+## Workflow topic
 
 ```text
-Use $ian-xiaohei-illustrations 为“把一条原始素材加工成流量、信任、转化三种内容”生成一张图。
-不要画正式流程图，不要复刻一鱼多吃旧案例。
-请重新发明一个新的低科技隐喻，让小黑参与核心动作。
+Use $explanation-illustrations to generate one figure for:
+"Turn one raw asset into three kinds of content: reach, trust, and conversion."
+Do not draw a formal flowchart. Do not copy old "one fish, many uses" compositions.
+Invent a new low-tech metaphor and let Blackie perform the core action.
 ```
 
-## 改图：去掉标题
+## Edit: remove a title
 
 ```text
-Use $ian-xiaohei-illustrations 帮我编辑这张图。
-去掉左上角的“Workflow / 流程图”标题和下划线，其他内容保持不变。
-不要新增任何文字或物件。
+Use $explanation-illustrations to edit this image.
+Remove only the handwritten title "Workflow" and its underline from the top-left corner.
+Keep everything else unchanged. Do not add any text or objects.
 ```
 
-## 改图：增强小黑参与感
+## Edit: strengthen Blackie's role
 
 ```text
-Use $ian-xiaohei-illustrations 这张图方向对，但小黑有点像装饰。
-请保持核心意思不变，重生成一版：让小黑成为真正推动结构运转的人。
-画面更怪一点，但仍然纯白、清爽、少字。
+Use $explanation-illustrations — this figure is on the right track, but Blackie feels decorative.
+Regenerate with the same core meaning: Blackie should be the one driving the structure,
+not standing beside it. Stranger, but still pure white, sparse, and low on text.
 ```
 
-## 生成一组风格样片
+## Style sample set
 
 ```text
-Use $ian-xiaohei-illustrations 输出 5 个不同主题的小黑正文配图效果。
-主题分别覆盖：信息过载、产品验证、内容复利、一人公司、信任建立。
-每张单独生成，不要拼成一张。
+Use $explanation-illustrations to output 5 sample figures on different topics:
+information overload, product validation, content compounding, solo builder workflow, trust building.
+Generate each separately — do not combine into one image.
+```
+
+## Formal paper figure (no Blackie)
+
+```text
+Use $explanation-illustrations to generate one figure for my paper section on
+"attention sinks in long-context transformers."
+This is a formal academic figure — omit Blackie. Keep pure white background,
+hand-drawn black line art, and sparse English labels. One core structure only.
 ```
