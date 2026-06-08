@@ -1,0 +1,11 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "network": {
+      "allowedDomains": ["api.openai.com"]
+    }
+  },
+  "permissions": {
+    "allow": ["WebFetch(domain:api.openai.com)"]
+  }
+}

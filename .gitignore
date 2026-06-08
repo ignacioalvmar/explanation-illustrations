@@ -12,3 +12,10 @@ dist/
 
 # Logs
 *.log
+
+# Secrets — never commit API keys
+.env
+*.key
+openai_key*.txt
+**/openai_key*.txt
+.claude/settings.local.json
